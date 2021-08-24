@@ -70,8 +70,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define BOOTMAGIC_LITE_COLUMN 0
 
 
-#define MATRIX_ROW_PINS { B2, B1, B0, A7, A6, A5 }
-#define MATRIX_COL_PINS { B12, B13, B14, B15, A8, A9, A10, A11, A12, A15, B13, B4, B5, B6, B7, B8, B10, A4, A3 }
+#define MATRIX_ROW_PINS { A8, A9, A10, A11, A12, A15 }
+#define MATRIX_COL_PINS { B10, B2, B1, B0, A7, A6, A5, A4, A3, A2, A1, A0, C15, C14, C13, B5, B6, B7, B8 }
 #define UNUSED_PINS
+
 
 #define ADC_PIN A0
